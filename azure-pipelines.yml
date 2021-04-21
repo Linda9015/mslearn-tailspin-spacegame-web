@@ -46,10 +46,6 @@ steps:
   parameters:
     buildConfiguration: 'Release'
 
-- task: PublishBuildArtifacts@1
+-- task: PublishBuildArtifacts@1
   displayName: 'Publish Artifact: drop'
-<<<<<<< HEAD
   condition: succeeded()
-=======
-  condition: succeeded()
->>>>>>> c6e23bd7a98a487b92df32ffe6ea43f0e39d1042
